@@ -1,6 +1,6 @@
 <?php
 	// MPTCP detection functions
-	require_once "mptcp.inc.php";
+	require_once "inc/mptcp.inc.php";
 ?>
 <!DOCTYPE html>
 <html>
@@ -8,7 +8,7 @@
 		<meta charset="UTF-8" />
 		<meta name="description" content="Am I using MPTCP (Multipath TCP)?  Find out if your operating system is capable of using MPTCP!" />
 		<meta name="keywords" content="mptcp, tcp, multipath" />
-		<link rel="stylesheet" type="text/css" href="main.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<title>Am I using MPTCP?</title>
 		</style>
 	</head>
