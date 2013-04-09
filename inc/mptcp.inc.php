@@ -75,6 +75,11 @@
 		{
 			return OS_WINDOWS;
 		}
+		// iPhone (must be checked before Mac OS X)
+		else if (strpos($agent, "iPhone") || strpos($agent, "iPad"))
+		{
+			return OS_IPHONE;
+		}
 		// Mac OS X
 		else if (strpos($agent, "Mac") || strpos($agent, "OS X"))
 		{
@@ -94,11 +99,6 @@
 		else if (strpos($agent, "BSD"))
 		{
 			return OS_BSD;
-		}
-		// iPhone
-		else if (strpos($agent, "iPhone"))
-		{
-			return OS_IPHONE;
 		}
 
 		// Any other, unknown platform
