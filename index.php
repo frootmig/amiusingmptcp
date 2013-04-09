@@ -18,7 +18,7 @@
 			// Detect active MPTCP connection on page load
 			if (is_mptcp())
 			{
-				echo "<h2 class=\"green\">YES!</h2>\n";
+				echo "<h2 class=\"big green\">YES!</h2>\n";
 				echo "<p>You're all set to use MPTCP on this device!  See <a href=\"http://multipath-tcp.org\">multipath-tcp.org</a> for more information!</p>\n";
 			}
 			else
