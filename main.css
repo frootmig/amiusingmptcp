@@ -1,0 +1,50 @@
+/* main.css - Matt Layher - Are you using MPTCP? */
+body {
+	background-image: url("/img/dark_geometric.png");
+	background-repeat: repeat;
+	text-align: center;
+	font-family: arial, sans-serif;
+	color: white;
+}
+
+a {
+	color: white;
+}
+
+h1 {
+	font-size: 48pt;
+}
+
+h2 {
+	font-size: 36pt;
+}
+
+p {
+	font-size: 20pt;
+}
+
+.big {
+	font-size: 120pt !important;
+	font-weight: bold;
+	margin: 0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.small {
+	font-size: 12pt !important;
+}
+
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}
+
+.orange {
+	color: orange;
+}
