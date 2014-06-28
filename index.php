@@ -13,6 +13,7 @@
 		</style>
 	</head>
 	<body>
+<span class="small">This page <a href="en.php">in English</a></span>
 		<h1>Benutze ich <a href="http://multipath-tcp.org" title="Multipath TCP">MPTCP</a>?</h1>
 		<?php
 		// Detect active MPTCP connection on page load
@@ -55,5 +56,8 @@
 		<br />
 		<hr />
 		<span class="small"><a href="http://www.voja.de/" title="Volker Janzen">Volker Janzen</a>, 2014 | <a href="https://github.com/frootmig/amiusingmptcp" title="Verwende ich MPTCP? auf GitHub">GitHub</a></span>
+		<br />
+		<br />
+		<span class="small">Impressum: Volker Janzen, Lappersdorfer Str. 41, 93059 Regensburg. eMail: <a href="mailto:webmaster@voja.de">webmaster (at) voja.de</a></small>
 	</body>
 </html>
